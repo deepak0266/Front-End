@@ -1,0 +1,14 @@
+nav{
+    background-color: blue;
+    color: white;
+}
+main{
+    background-color: rgba(241, 55, 55, 0.722);
+}
+*{
+    margin: 5px,8px;
+    padding: 5px,9px;
+}
+body{
+    background-color: aquamarine;
+}

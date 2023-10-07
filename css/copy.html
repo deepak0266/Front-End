@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Stack Triangle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style id="compiled-css" type="text/css">
+      .triangle{
+  padding:10px;
+  position: relative;
+  background-color: #000;
+  color:yellow;
+  display:inline-block;
+  margin-left:40px;
+}
+.triangle::after{
+  content:"";
+  position: absolute;
+  border:19px solid #000;
+  height:0;
+  width:0;
+  left:-38px;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+  border-left-color:transparent;
+  border-bottom-color:transparent;
+}
+    
+  </style>
+</head>
+<body>
+    <div class="triangle">
+  text-here
+</div>
+</body>
+</html>

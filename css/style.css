@@ -1,0 +1,23 @@
+.red {
+    background-color: rgba(141, 211, 220, 0.661);
+    color: blanchedalmond;
+    border-style: dotted;
+    background-size: auto;
+    /* height: 40px; */
+    width: 400px;
+}
+
+.blue {
+    width:500px;
+    color: rgb(255, 0, 0);
+    background-color: rgba(209, 237, 96, 0.652);
+}
+
+body {
+    height: 1400px;
+    width: 400px;
+    background-image: url(https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

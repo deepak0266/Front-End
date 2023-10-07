@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>X-vc</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: gold;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        header nav p {
+            /* justify-content: center; */
+            text-align: center;
+        }
+
+        header nav p a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .one {
+
+            margin: 0 auto;
+            background-color: aqua;
+            width: 29vw;
+            display: block;
+            border: 5px solid navy;
+            /* text-align: center; */
+        }
+
+        .boxgrid {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            background-color: grey;
+            grid-gap: 10px;
+            width: 65vw;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .boxgrid p {
+            border: 5px solid brown;
+            background-color: yellow;
+            /* justify-content: center;
+            align-content: center; */
+        }
+
+        #caption {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .a {
+            grid-row: 1/5;
+        }
+
+        .b {
+            grid-column: 2/4;
+
+        }
+
+        .c {
+            grid-column: 4/6;
+
+        }
+
+        .h {
+
+            grid-column: 2/5;
+        }
+
+        .i {
+            grid-column: 5/6;
+            grid-row: 3/5;
+        }
+
+        .j {
+            grid-column: 2/5;
+
+        }
+
+        .two {
+            background-color: lightgreen;
+            border: 5px solid black;
+        }
+
+        footer {
+            font-size: larger;
+        }
+
+        @media screen and (max-width:700px) {
+            body {
+                background-color: black;
+                /* color: white; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p href="#">
+                <a href="#">Home</a> |
+                <a href="#">About</a> |
+                <a href="#">Contact</a>
+            </p>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div class="one">
+                <h1>Summary</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione deserunt explicabo iusto nobis
+                    praesentium architecto aspernatur cupiditate placeat quasi provident illum velit atque, earum vitae
+                    officia quaerat repellendus, nemo cumque totam voluptate laudantium sint tenetur delectus. Quo
+                    dolorum, accusantium voluptates magni corrupti quod culpa commodi distinctio ullam, unde error.
+                </p>
+            </div>
+            <p id="caption">Such blocks that help to build yourweb amaze</p>
+            <div class="boxgrid">
+                <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="b">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="d">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="e">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="f">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="g">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="h">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="i">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+                <p class="j">Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+            </div>
+            <div class="two">
+                <h1>iMPORTANT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, provident. Voluptate reiciendis,
+                    dolorum nobis nostrum nulla corporis dolores in veniam, aut ipsa cumque quisquam facilis hic
+                    blanditiis ratione, excepturi ducimus. Aut cum corrupti in commodi harum debitis rerum suscipit
+                    dolore obcaecati. Non amet fugit nemo animi mollitia est, iure doloribus quia.</p>
+            </div>
+        </section>
+    </main>
+    <pre>
+
+            <hr ></pre>
+
+    <footer>
+        <p>&copy; Copyright Reserve:2021-2022</p>
+    </footer>
+</body>
+
+</html>

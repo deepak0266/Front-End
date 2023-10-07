@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                background-color: gold;
+                position: sticky;
+                top: 0;
+                z-index: 2;
+            }
+            header nav p a{
+                display: inline-block;
+                margin: 10px;
+                padding: 10px;
+            }
+            body{
+                background-color: lightgrey;
+                height: 1500px;
+            }
+            .one{
+                position: sticky;
+                z-index: 0;
+                background-color: grey;
+                border:5px solid black  ;
+                border-left-color: aqua;
+                border-right-color: aquamarine;
+                border-top-color: maroon;
+            }
+            .two{
+                /* background-color: grey; */
+                border:5px solid black  ;
+                width: 150px;
+                border-left-color: aqua;
+                border-right-color: aquamarine;
+                border-top-color: antiquewhite;
+            } 
+            .three{
+                background-color: grey;
+                border:5px solid black  ;
+                width: 150px;
+                border-left-color: aqua;
+                border-right-color: aquamarine;
+                border-top-color: magenta;
+            }
+             .four{
+                width: 150px;
+                /* background-color: grey; */
+                border:5px solid black  ;
+                border-left-color: aqua;
+                border-right-color: aquamarine;
+                border-top-color: white;
+            }
+            .flex{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <p class="nav">
+                    <a href="#">Home</a>|
+                    <a href="#">Help</a> |
+                    <a href="#">Contact Us</a>|
+                    <a href="#">Privacy Policy</a>
+                    <HR>
+                </p>
+            </nav>
+        </header>
+        <main>
+            <section class="heading">
+                <div class="one">
+                    <h1>HEADING</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, eius. Iste, veritatis.</p>
+                </div>
+                <div class="flex">
+                    <div class="two">
+                        <h3>IMpotent</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, eius. Iste, veritatis.</p>
+                    </div>
+                    <div class="three">
+                        <h3>wORDS</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, eius. Iste, veritatis.</p>
+                    </div>
+                     <div class="four">
+                        <h3>Inside</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, eius. Iste, veritatis.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
